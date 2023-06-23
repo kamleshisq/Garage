@@ -1,10 +1,11 @@
 <?php 
 header("Access-Control-Allow-Origin: *");
+//include('include/config.php');
 ###
-define("HOST","localhost");
-define("DB","isquavhc_voice_of_day");
-define("DBUSERNAME","isquavhc_demo1");
-define("DBPASSWORD","uy8MQNlt?7Bx");
+define("HOST","ckmysql.mysql.database.azure.com");
+define("DB","coverking_garages");
+define("DBUSERNAME","ckdevelop");
+define("DBPASSWORD","4gdfg46435Ofsjb76fsJAF3450bn!");
 ###
 
 ### DB CONNECTION ###
