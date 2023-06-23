@@ -1,8 +1,8 @@
 <?php
-define('DB_SERVER','localhost');
-define('DB_USER','isquavhc_demo1');
-define('DB_PASS' ,'uy8MQNlt?7Bx');
-define('DB_NAME', 'isquavhc_voice_of_day');
+define('DB_SERVER','ckmysql.mysql.database.azure.com');
+define('DB_USER','ckdevelop');
+define('DB_PASS' ,'4gdfg46435Ofsjb76fsJAF3450bn!');
+define('DB_NAME', 'coverking_garages');
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 // Check connection
 if (mysqli_connect_errno())
